@@ -18,4 +18,4 @@ mongoose.connect('mongodb://localhost/tienda-online', {
 .then(() => console.log('Conexión a MongoDB exitosa'))
 .catch((err) => console.log(err));
 
-app.use(express.json());
+app.use(express.json()); 
